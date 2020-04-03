@@ -7,6 +7,6 @@ metadata:
 spec:
   containers:
     - name: nodeapp
-      image: kammana/nodeapp:tagVersion
+      image: 502207623589.dkr.ecr.us-east-1.amazonaws.com/terraform-demo:tagVersion
       ports:
-        - containerPort: 8080
+        - containerPort: 8090
